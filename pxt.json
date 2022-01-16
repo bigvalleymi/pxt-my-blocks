@@ -1,12 +1,15 @@
 {
     "name": "pxt-my-blocks",
+    "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
+        "myBlocks.ts",
+        "myBlocks.cpp",
+        "_locales/ja/pxt-my-blocks-jsdoc-strings.json",
+        "_locales/ja/pxt-my-blocks-strings.json",
         "main.blocks",
         "main.ts",
         "README.md"
